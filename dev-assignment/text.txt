@@ -1,0 +1,7 @@
+What is JAVA_HOME?
+By convention, JAVA_HOME is the name of an environment variable on the operating system that points to the installation directory of JDK (Java Development Kit) or JRE (Java Runtime Environment) – thus the name Java Home. For example:
+1
+JAVA_HOME = c:\Program Files\Java\jdk1.8.0_201
+ 
+Why is JAVA_HOME needed?
+To develop Java applications, you need to update the PATH environment variable of the operating system so development tools like Eclipse, NetBeans, Tomcat… can be executed because these programs need JDK/JRE to function. So the PATH environment variable should include JAVA_HOME:
